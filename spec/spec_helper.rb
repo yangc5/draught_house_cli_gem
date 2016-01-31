@@ -1,7 +1,7 @@
-require_relative "../lib/library_app.rb"
-require_relative "../lib/library_app/google_map_scraper.rb"
-require_relative "../lib/library_app/library.rb"
-require_relative "../config/environment.rb"
+# require_relative "../lib/library_app.rb"
+# require_relative "../lib/library_app/google_map_scraper.rb"
+# require_relative "../lib/library_app/library.rb"
+# require_relative "../config/environment.rb"
 
 require 'webmock/rspec'
 WebMock.disable_net_connect!(allow_localhost: true)
