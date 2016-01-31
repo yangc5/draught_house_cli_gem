@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/draught_house_tab.rb'
+require_relative '../lib/draught_house_tap.rb'
 
-DraughtHouseTab.new.run
+DraughtHouseTap.new.run

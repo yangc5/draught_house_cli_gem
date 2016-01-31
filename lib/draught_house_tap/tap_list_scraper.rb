@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'pry'
 
-class TabListScraper
+class TapListScraper
 
   def self.scrape_index_page
     url="http://www.taplister.com/bars/40b13b00f964a5209af31ee3"
