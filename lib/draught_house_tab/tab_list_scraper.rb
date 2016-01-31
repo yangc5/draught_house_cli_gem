@@ -1,7 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
 require 'pry'
-require_relative './beer.rb'
 
 class TabListScraper
 

@@ -13,10 +13,10 @@ class DraughtHouseTab
       puts ""
       puts ""
     end
-    # binding.pry
+
     quit=false
     while !quit
-      puts "To view detailed descriptions for a beer, please enter the full name of beer"
+      puts "To view detailed descriptions for a beer, please enter the full name of beer."
       beer_name= gets.chomp
       beer = Beer.find_by_name(beer_name)
       if beer != nil
@@ -31,20 +31,8 @@ class DraughtHouseTab
         answer = gets.chomp
         if answer == "N"
           quit=true
-        end 
-      else
-        puts "Please enter the full name of beer again."
+        end
       end
     end
-
-
-
-
   end
-
-
-
 end
-
-today = DraughtHouseTab.new
-today.run
