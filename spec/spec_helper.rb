@@ -3,8 +3,8 @@ require_relative "../lib/draught_house_tap/beer.rb"
 require_relative "../lib/draught_house_tap/tap_list_scraper.rb"
 require_relative "../config/environment.rb"
 
-require 'webmock/rspec'
-WebMock.disable_net_connect!(allow_localhost: true)
+# require 'webmock/rspec'
+# WebMock.disable_net_connect!(allow_localhost: true)
 
 
 
