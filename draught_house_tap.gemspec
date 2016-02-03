@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'draught_house_tap'
   s.version     = '0.0.0'
-  s.executable << 'run'
+  s.executables << 'run'
   s.date        = '2016-02-02'
   s.summary     = "Draught House tap beer list cli app gem"
   s.description = "The app scrapes a list of beer currently available at a local Austin beer bar named Draught House from taplister.com and displays basic information for each beer, i.e. name, brewery, abv, etc."
