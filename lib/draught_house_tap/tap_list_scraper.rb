@@ -1,6 +1,5 @@
 require 'nokogiri'
 require 'open-uri'
-require 'pry'
 
 class TapListScraper
 
@@ -34,10 +33,3 @@ class TapListScraper
   end
 
 end
-
-#todo: make spec based on those pages
-# beer=Beer.new
-#
-# beer.profile_url="https://www.taplister.com/beers/512-pecan-porter/58364/"
-#
-# TabListScraper.scrape_profile_page(beer)
